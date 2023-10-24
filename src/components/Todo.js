@@ -41,7 +41,7 @@ function Todo(props) {
           <div className="content">{props.Content}</div>
         </div>
         <ButtonGroup variant="outlined" aria-label="outlined button group">
-          <Button onClick={() => setEdit(true)}>Edit</Button>
+          <Button onClick={() => setEdit(true)}>編集</Button>
           <Button onClick={() => props.onDelete(props.ID)}>Delete</Button>
         </ButtonGroup>
       </Stack>
